@@ -7,5 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Craig A.",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wildaces215/apiMicroService.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wildaces215/apiMicroService/issues"
+  },
+  "homepage": "https://github.com/wildaces215/apiMicroService#readme",
+  "dependencies": {
+    "expres": "0.0.5",
+    "express": "^4.15.3",
+    "moment": "^2.18.1"
+  }
 }
