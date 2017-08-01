@@ -6,7 +6,7 @@ var moment=require('moment');
 
 app.use(express.static(__dirname + '/views'));
 
-
+app.set('port', (process.env.PORT || 8080));
 app.get("/",function(req,res){
    res.sendFile('index.html');
 })
@@ -35,6 +35,6 @@ res.json({
 
 
 })
-app.listen(3000,function(req,res){
-  console.log("App running on 3000!");
+app.listen(app.get('port'),function(req,res){
+  console.log("App running on"+app.get('port'));
 })
