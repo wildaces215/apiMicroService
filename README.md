@@ -1,5 +1,4 @@
 This little project is the unix timestamp project that is associated with freecodecamp. It takes an input checks if it is a unix timsestamp
-or a date converts the input and returns the output which is both unix timestamp and natural date. If it is not recngnized
+or a date converts the input and returns the output which is both unix timestamp and natural date. If it is not recongized
 then it returns null.
-Link to project https://murmuring-tundra-68258.herokuapp.com/
 
