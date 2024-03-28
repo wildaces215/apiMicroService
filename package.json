@@ -18,7 +18,7 @@
   "homepage": "https://github.com/wildaces215/apiMicroService#readme",
   "dependencies": {
     "expres": "0.0.5",
-    "express": "^4.15.3",
+    "express": "^4.19.2",
     "moment": "^2.18.1"
   }
 }
